@@ -20,7 +20,7 @@ test('Renders user area when isUser is true', () => {
 test('Background is green when user is logged in', () => {
   render(<Home isUser />);
   const mainHomeDiv = screen.getByTestId('home-div');
-  expect(mainHomeDiv).toHaveStyle('background-color: green');
+  expect(mainHomeDiv).toHaveStyle('background-color: blue');
 });
 
 test('Welcome text toggles when clicked', () => {
